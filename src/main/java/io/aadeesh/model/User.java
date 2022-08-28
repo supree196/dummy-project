@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-@Table(Name=User)
+@Table(Name=user)
 public class User 
 {
 	@Id
