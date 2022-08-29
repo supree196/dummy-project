@@ -21,7 +21,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>  
 </head>
 <body>
-<h3>Team-4 Project</h3>
+<h3>Global Logic Registration Portal</h3>
 <a href="signup"><h4>Sign Up</h4></a><br>
 <a href="login"><h4>Login</h4></a>
 
