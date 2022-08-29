@@ -54,7 +54,7 @@ public class UserController
 		else
 		{
 		urepo.save(user);
-		mv.addObject("message","User has been successfully registered.");
+		mv.addObject("message","Successfully registered into the GlobalLogic Registration Portal.");
 		}
 		
 		return mv;
