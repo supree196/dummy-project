@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Dummy Page</title>
+<title>Log In</title>
 <style>  
 h3{
   font-family: Calibri; 
@@ -22,7 +22,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </head>
 <body>
 
-	<h3>Success Page</h3>
+	<h3>Logged In Successfully</h3>
 	<%
 		
 		 response.setHeader("Cache-control", "no-cache, no-store, must-revalidate");
@@ -33,7 +33,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 		}
 	
 	%>
-	Welcome, ${sessionScope.username }
+	Welcome to Global Logic, ${sessionScope.username }
 	<br>
 	
 	<a href="${pageContext.request.contextPath }/logout">Logout</a>
